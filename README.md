@@ -1,4 +1,7 @@
-Changes/Modifications:
+<h2>Original Project</h2>
+https://github.com/jacky-liang/age-timer
+
+<h2>Changes/Modifications</h2>
 * Texts:
     - Removed footer cite and replace it with a sentence
     - Changed the "Motivate" button to "Calculate"
@@ -14,3 +17,4 @@ Changes/Modifications:
         * Subtle shadow
         * Golden border when hovered or in focus
     - Minor margin/placement changes
+
