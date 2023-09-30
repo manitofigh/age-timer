@@ -7,5 +7,10 @@ Changes/Modifications:
     - Theme change
         * Dark background
         * white and gold texts
-    - Button and input shadow and border effects
-    - minor margin changes
+    - Button 
+        * Subtle shadow
+        * Golden border when hovered over
+    - Input
+        * Subtle shadow
+        * Golden border when hovered or in focused
+    - Minor placement changes
