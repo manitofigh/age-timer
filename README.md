@@ -1,6 +1,4 @@
-
-<h2>Link to the Original Project</h2>
-<a href="https://github.com/jacky-liang/age-timer">age-timer by @jacky-liang</a>
+This repo is a modified version of <a href="https://github.com/jacky-liang/age-timer">age-timer by @jacky-liang</a>
 
 * Texts:
     - Removed footer cite and replace it with a sentence
