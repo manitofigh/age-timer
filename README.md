@@ -1,8 +1,7 @@
+
 <h2>Link to the Original Project</h2>
 <a href="https://github.com/jacky-liang/age-timer">age-timer by @jacky-liang</a>
 
-
-<h2>Changes/Modifications</h2>
 * Texts:
     - Removed footer cite and replace it with a sentence
     - Changed the "Motivate" button to "Calculate"
