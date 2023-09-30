@@ -1,4 +1,5 @@
-<a href="https://github.com/jacky-liang/age-timer"> <h2>Original Project</h2> </a>
+<h2>Link to the Original Project</h2>
+<a href="https://github.com/jacky-liang/age-timer">age-timer by @jacky-liang</a>
 
 
 <h2>Changes/Modifications</h2>
