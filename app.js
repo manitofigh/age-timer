@@ -45,7 +45,7 @@ $(document).ready(function(){
         var duration  = now - dob;
         var years     = duration / 31556900000;
         
-        var majorMinor = years.toFixed(10).toString().split('.');
+        var majorMinor = years.toFixed(11).toString().split('.');
         
         return {
             "year": majorMinor[0],
