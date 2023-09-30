@@ -1,5 +1,5 @@
-<h2>Original Project</h2>
-https://github.com/jacky-liang/age-timer
+<a href="https://github.com/jacky-liang/age-timer">Original Project</a>
+
 
 <h2>Changes/Modifications</h2>
 * Texts:
