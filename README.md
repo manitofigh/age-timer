@@ -13,4 +13,4 @@ Changes/Modifications:
     - Input
         * Subtle shadow
         * Golden border when hovered or in focus
-    - Minor placement changes
+    - Minor margin/placement changes
