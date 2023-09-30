@@ -26,23 +26,45 @@ body {
 body, input {
   display: -webkit-flex;
   font-family: 'Avenir', 'helvetica neue', helvetica, arial, sans-serif;
+  background-color: #191919;
 }
 
 .age-label {
-  color: #B0B5B9;
+  /* color: #a9a8a8; */
+  color: rgb(208, 177, 0);
   font-size: 1.2rem;
   line-height: 1;
-  margin: 0 0 0 2px;
+  margin: 0 0 1rem 2px;
 }
 
 #cite {
-  color: #B0B5B9;
+  cursor: pointer;
+  color: #a9a8a8;
   font-size: 1.2rem;
   line-height: 1;
   margin: 0 0 0 2px;
   position: fixed;
   bottom: 0;
 }
+
+#cite:hover{
+  font-size: 1.5rem;
+  transition: font-size 400ms ease-in-out;
+  color: rgb(208, 177, 0);
+}
+
+#cite:not(:hover){
+  font-size: 1.2rem;
+  transition: font-size 500ms ease-in-out;
+  color: #a9a8a8;
+}
+
+#cite:active {
+  font-size: 1.35rem;
+  /* ease in out transition in 200ms */
+  transition: font-size 200ms ease-in-out;
+}
+
 
 #cite a {
   color: rgb(154, 157, 160);
@@ -59,7 +81,7 @@ body, input {
 } 
 
 .count {
-  color: #494949;
+  color: #d8d8d8;
   margin: 0;
   font-size: 6rem;
   line-height: 1;
@@ -76,18 +98,25 @@ label {
 }
 
 input, button {
+  cursor: pointer;
   padding: 0.375rem 0.75rem;
   font-size: 1.5rem;
   appearance: none;
   -webkit-appearance: none;
+  box-shadow: 0 0 20px 0 rgba(240, 246, 255, 0.5);
+}
+
+/* hover for input and button */
+input:hover, input:focus, button:hover {
+  border: 4px solid rgb(208, 177, 0);
 }
 
 input {
-  margin-right: 0.5rem;
+  margin: 0 0.5rem 0 0;
   box-sizing: border-box;
   border-width: 1px;
   border-style: solid;
-  border-radius: 0.25rem;
+  border-radius: 4.25rem;
   border-color: #CCC;
   background-color: #FFF;
 }
@@ -96,11 +125,21 @@ button {
   outline: none;
   display: block;
   cursor: pointer;
-  color: #FFF;
+  color: black;
   border: none;
-  border-radius: 0.25rem;
-  background-color: #0BE;
+  border-radius: 4.25rem;
+  background-color: white;
 }
+
+/* button:hover {
+  box-shadow: 0 0 40px 0 rgba(255, 212, 84, 0.5);
+  transition-duration: 250ms;
+}
+
+button:not(:hover) {
+  box-shadow: 0 0 30px 0 rgba(240, 246, 255, 0.5);
+  transition-duration: 250ms;
+} */
 
 footer {
   padding-top: 0.5rem;
