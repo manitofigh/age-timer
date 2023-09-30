@@ -1,6 +1,6 @@
 This repo is a modified version of <a href="https://github.com/jacky-liang/age-timer">age-timer by @jacky-liang</a>
 
-Changes/Modifications:
+**Changes/Modifications:**
 * Texts:
     - Removed footer cite and replace it with a sentence
     - Changed the "Motivate" button to "Calculate"
