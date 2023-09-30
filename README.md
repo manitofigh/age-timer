@@ -12,5 +12,5 @@ Changes/Modifications:
         * Golden border when hovered over
     - Input
         * Subtle shadow
-        * Golden border when hovered or in focused
+        * Golden border when hovered or in focus
     - Minor placement changes
