@@ -3,7 +3,7 @@ $(document).ready(function(){
         e.preventDefault();
     
         var input = $("#dob-input").val();
-        var dob = new Date(input);
+	dob = new Date(input);
         save(dob);
         renderAgeLoop();
     });
